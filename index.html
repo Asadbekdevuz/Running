@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <title>Running</title>
+</head>
+
+<body>
+  <main>
+    <section class="box">
+      <div class="box__container container">
+        <div class="box__inner">
+          <form class="form mt-4" autocomplete="off">
+            <div class="mb-3">
+              <label class="form-label fs-4" for="rain-input">Running</label>
+              <input class="form__input form-control" type="text" id="rain-input" aria-describedby="emailHelp"
+                placeholder="Create weather celcius C" required>
+              <div class="form-text ps-2" id="rain-input">Please, create number</div>
+            </div>
+
+            <div class="mb-1">
+              <input class="form__input-check-1 form-check-input" type="checkbox" id="rain">
+              <label class="form-label" for="rain">Rain</label>
+            </div>
+
+            <div class="mb-4 form-check">
+              <input class="form__input-check-2 form-check-input" type="checkbox" id="Hall">
+              <label class="form-check-label" for="Hall">GYM</label>
+            </div>
+
+            <div class="text-center text-sm-end">
+              <button class="btn btn-primary" type="submit">Submit</button>
+              <button class="btn btn-danger" type="reset">Delete</button>
+            </div>
+          </form>
+
+          <div class="output__form text-center my-4">
+            <output class="result__form"></output>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
